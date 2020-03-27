@@ -3,7 +3,8 @@
 {
   "name": "kafka",
   // "dockerFile": "Dockerfile",
-  "dockerComposeFile": "docker-compose-single-broker.yml",
+  "dockerComposeFile": "zk-single-kafka-single.yml",
+  "service": "kafka",
 
   // Set *default* container specific settings.json values on container create.
   "settings": {
